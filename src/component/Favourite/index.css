@@ -1,0 +1,27 @@
+.favourite{
+    flex: 1;
+    height: auto;
+    /* background-color: red; */
+}
+.favourite-col-1{
+    flex: 2;
+}
+.favourite-col-1{
+    display: flex;
+    gap: 5px;
+}
+.favourite-col-2{
+    flex: 1;
+}
+.favourite .row{
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+@media (max-width:768px) {
+    .favourite .row,.favourite-col-1{
+        display: block;
+        margin-bottom: 5px;
+    }
+}

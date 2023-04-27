@@ -1,0 +1,21 @@
+.product-card-2{
+    flex: 1;
+    height: auto;
+}
+.product-card-2 .row{
+    display: flex;
+    padding-right:7%;
+    padding-left:7%;
+}
+.product-col-1{
+    flex: 1;
+}
+.product-col-2{
+    flex: 1;
+}
+
+@media (max-width:768px) {
+    .product-card-2 .row{
+        display: block;
+    }
+}

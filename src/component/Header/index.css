@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  /* z-index: -1; */
+  /* margin-top: -130px; */
+  /* position: relative; */
+  /* background-color: #555 */
+  background: url("../../assest/1photo-1549298916-b41d501d3772.avif") center center/cover;
+}
+.hr {
+  width: 71%;
+  display: block;
+  margin-top: -19px !important;
+  height: 1px;
+  margin: auto;
+  background-color: #555;
+}
+.header-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 68%;
+  padding: 12px;
+  margin: 122px auto;
+  /* color: #fff; */
+  font-weight: 800;
+  color: #fff;
+  font-size: 19px;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  justify-content: space-around;
+  align-items: center;
+}
+.header-content {
+  position: absolute;
+  left: 20%;
+  top: 19%;
+  padding: 20px;
+  color: #fff;
+  width: 35%;
+}
+.header-content h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+.header-content p {
+  width: 59%;
+  padding: 20px 0px 52px 0;
+}
+.header-content a {
+  font-weight: 400;
+  text-decoration: none;
+  background-color: red;
+  padding: 20px 30px;
+  color: #fff;
+  border: 2px solid red;
+  font-size: 17px;
+  transition: 1s;
+  cursor: pointer;
+}
+.header-content a:hover {
+  background: transparent;
+  border: 2px solid white;
+}
+.closebtn{
+    display: none;
+}
+@media (max-width: 768px) {
+  .header{
+    margin-top: -135px;
+  }
+  .hr {
+    display: none;
+  }
+  .header-content {
+    width: 100%;
+    top: 338px;
+    left: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .header-content h1 {
+    font-size: 34px;
+  }
+  .header-content p {
+    width: 100%;
+  }
+  .header-row h4 {
+    padding: 5px;
+  }
+  .header-row {
+    margin: 129px auto;
+}
+}

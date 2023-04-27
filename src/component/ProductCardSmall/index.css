@@ -1,0 +1,39 @@
+.small-card{
+    display: flex;
+    align-items: center;
+}
+.col-1 h1{
+    font-size: 45px;
+    padding-bottom: 12px;
+    /* color: #555; */
+}
+.col-1 ,.col-2{
+    flex: 1;
+}
+.small-card .col-2 img{
+    width: 100%;
+}
+.small-card span{
+    background-color: #555;
+    width: 34px;
+    height: 3px;
+    display: block;
+    margin-bottom: 34px;
+}
+.small-card a{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 19px 30px;
+    display: inline-block;
+
+}
+@media (max-width:768px) {
+    .small-card .col-1 h1{
+        font-size: 25px;
+    }
+    .small-card a{
+        padding: 4px;
+        display: inline-block;
+    }
+}
